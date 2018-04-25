@@ -25,4 +25,6 @@ class Album
     return results.map { |album| Album.new(album) }
   end
 
+
+
 end

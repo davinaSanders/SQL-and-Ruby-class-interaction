@@ -18,12 +18,12 @@ album1 = Album.new({
 album2 = Album.new({
   "title" => "Like",
   "genre" => "pop",
-  "artist_id" => artist1.id
+  "artist_id" => artist2.id
   })
 album3 = Album.new({
   "title" => "This",
   "genre" => "blues",
-  "artist_id" => artist1.id
+  "artist_id" => artist3.id
   })
 
 album1.save()
