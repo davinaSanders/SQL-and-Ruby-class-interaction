@@ -23,3 +23,6 @@ album3 = Album.new({
   "genre" => "blues",
   "artist_id" => artist1.id
   })
+  
+album1.save()
+album2.save()
